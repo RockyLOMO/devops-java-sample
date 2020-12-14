@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T03:13:02.076Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="pGMbNKt783fXSkS90WWl" version="13.10.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-12-14T03:16:27.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="Ksx3pddgrfuYDdOzLRrT" version="13.10.9" type="github" pages="7">
   <diagram id="uXVe0quy58Y-PAIghAt3" name="5meta server">
-    <mxGraphModel dx="2276" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ncbuz_pskIEe8CsxBFsp-0" />
         <mxCell id="ncbuz_pskIEe8CsxBFsp-1" parent="ncbuz_pskIEe8CsxBFsp-0" />
@@ -16,11 +16,6 @@
         <mxCell id="lBkkYIJaO--buaIHjILK-31" value="eureka 集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ncbuz_pskIEe8CsxBFsp-1">
           <mxGeometry x="350" y="210" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lBkkYIJaO--buaIHjILK-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ncbuz_pskIEe8CsxBFsp-1" source="lBkkYIJaO--buaIHjILK-32" target="lBkkYIJaO--buaIHjILK-28">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lBkkYIJaO--buaIHjILK-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="ncbuz_pskIEe8CsxBFsp-1" source="lBkkYIJaO--buaIHjILK-32" target="lBkkYIJaO--buaIHjILK-31">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="60" as="targetPoint" />
@@ -29,17 +24,17 @@
         <mxCell id="lBkkYIJaO--buaIHjILK-32" value="apollo client" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="ncbuz_pskIEe8CsxBFsp-1">
           <mxGeometry x="200" y="40" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="MjmbLWE96d6XyhIO62VP-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ncbuz_pskIEe8CsxBFsp-1" source="lBkkYIJaO--buaIHjILK-33" target="lBkkYIJaO--buaIHjILK-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lBkkYIJaO--buaIHjILK-33" value="apollo portal" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="ncbuz_pskIEe8CsxBFsp-1">
           <mxGeometry x="480" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lBkkYIJaO--buaIHjILK-37" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34; ; color: rgb(15 , 23 , 33) ; font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;1. 初始时，创建延迟&lt;/span&gt; 1 &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;秒的任务，从&lt;/span&gt; Meta Service &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;获取&lt;/span&gt; Config Service &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;集群地址进行缓存。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34; ; color: rgb(15 , 23 , 33) ; font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;2. 获取成功时，创建延迟&lt;/span&gt; 5 &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;分钟的任务，从&lt;/span&gt; Meta Service &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;获取&lt;/span&gt; Config Service &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;集群地址刷新缓存。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34; ; color: rgb(15 , 23 , 33) ; font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;3. 获取失败时，创建延迟&lt;/span&gt; 10 &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;秒的任务，从&lt;/span&gt; Meta Service &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;获取&lt;/span&gt; Config Service &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 11px&quot;&gt;集群地址刷新缓存。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="ncbuz_pskIEe8CsxBFsp-1">
-          <mxGeometry x="640" y="80" width="340" height="120" as="geometry" />
+          <mxGeometry x="420" y="80" width="340" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lBkkYIJaO--buaIHjILK-39" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34; ; color: rgb(15 , 23 , 33) ; font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 10px&quot;&gt;1. 初始时，从&lt;/span&gt; Meta Service &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 10px&quot;&gt;获取&lt;/span&gt; Config Service &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 10px&quot;&gt;集群地址进行缓存。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34; ; color: rgb(15 , 23 , 33) ; font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 10px&quot;&gt;2. 定时任务，每&lt;/span&gt; 5 &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 10px&quot;&gt;分钟，从&lt;/span&gt; Meta Service &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 10px&quot;&gt;获取&lt;/span&gt; Config Service &lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 10px&quot;&gt;集群地址刷新缓存。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34; ; color: rgb(15 , 23 , 33) ; font-size: 10px&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 10px&quot;&gt;&lt;br style=&quot;font-size: 8px&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="ncbuz_pskIEe8CsxBFsp-1">
-          <mxGeometry x="-60" y="87.5" width="220" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="lBkkYIJaO--buaIHjILK-41" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="ncbuz_pskIEe8CsxBFsp-1">
-          <mxGeometry x="540" y="140" width="40" height="20" as="geometry" />
+          <mxGeometry x="150" y="87.5" width="220" height="105" as="geometry" />
         </mxCell>
         <mxCell id="lBkkYIJaO--buaIHjILK-42" value="ACK eureka 集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="ncbuz_pskIEe8CsxBFsp-1">
           <mxGeometry x="520" y="252.5" width="100" height="15" as="geometry" />
@@ -49,6 +44,12 @@
         </mxCell>
         <mxCell id="lBkkYIJaO--buaIHjILK-45" value="Pod-2&lt;br&gt;ConfigService:8080/eureka" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="ncbuz_pskIEe8CsxBFsp-1">
           <mxGeometry x="490" y="340" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MjmbLWE96d6XyhIO62VP-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontSize=8;" vertex="1" parent="ncbuz_pskIEe8CsxBFsp-1">
+          <mxGeometry x="140" y="200" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MjmbLWE96d6XyhIO62VP-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontSize=8;direction=west;" vertex="1" parent="ncbuz_pskIEe8CsxBFsp-1">
+          <mxGeometry x="610" y="200" width="50" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
